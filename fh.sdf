@@ -1,0 +1,33 @@
+from turtle import *
+##hideturtle()
+Screen().bgcolor('black')
+color('white')
+fillcolor('white')
+begin_fill()
+forward(180)
+left(90)
+forward(100)
+left(90)
+forward(180)
+left(90)
+forward(100)
+left(90)
+end_fill()
+
+#circle draw
+color('red')
+fillcolor('red')
+begin_fill()
+penup()
+goto(90,30)
+pendown()
+circle(20)
+end_fill()
+
+#draw stike
+color('green')
+penup()
+goto(0,100)
+pensize(10)
+pendown()
+forward(300)
